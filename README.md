@@ -1,5 +1,5 @@
-#SystemVerilog D Flip-Flop — OOP Testbench Verification
-#Overview
+SystemVerilog D Flip-Flop — OOP Testbench Verification
+Overview
 This project implements and verifies a D Flip-Flop design using SystemVerilog with an Object-Oriented Testbench architecture.
 The verification environment uses classes, mailboxes, events, and virtual interfaces to model a reusable, modular verification setup similar to UVM concepts, but without the full UVM framework.
 
@@ -94,7 +94,7 @@ Console output for PASS/FAIL messages.
 
 Waveform in GTKWave to visualize DFF behavior.
 
-#Key Learnings
+Key Learnings
 Using mailboxes for inter-component communication.
 
 Synchronization between generator and scoreboard using events.
